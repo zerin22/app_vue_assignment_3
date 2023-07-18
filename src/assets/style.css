@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a:focus, a {
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+} 
+body {
+   margin: 0;
+   padding: 0;
+   width: auto;
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 767px) {
+    body {
+      max-width: 600px;
+      margin: 0 auto !important; 
+  }
+}
+
+
+.container{
+    max-width: 600px;
+}
+
+
+.mobile-container {
+/* max-width: 480px;
+margin: auto;
+background-color: #FFF;
+height: 500px;
+color: white;
+border-radius: 10px; */
+}
+
+.topnav {
+overflow: hidden;
+background-color: #fff;
+position: relative;
+}
+
+.topnav #myLinks {
+display: none;
+}
+
+.topnav a {
+color: rgb(46, 46, 46);
+padding: 4px 6px;
+text-decoration: none;
+font-size: 16px;
+font-weight: 700;
+display: block;
+}
+
+.topnav a.icon {
+/* background: black; */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.active {
+    /* background-color: #9c9c9c; */
+}  
+
+.nav_boder{
+    border-bottom: 2px solid #dfdddd;
+}
+
+/* banner */
+
+.banner_img{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.bottom_gap{
+    margin-bottom: 30px;
+}
+
+.banner_inner h1{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.banner_inner p{
+    color: #666;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.banner_inner button{
+    border-radius: 64px;
+    background: linear-gradient(180deg, #3EFFFF 0%, #0F9 100%);
+    border: none;
+    padding: 9px 20px;
+    color: #222;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.about_us{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.about_us img{
+    width: 200px;
+}
+
+.about_us h2{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 63px */
+    /* margin-bottom: 10px; */
+}
+
+.about_us p{
+    color: #666;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.about_us h6{
+    color: #222;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.features_img img{
+    width: 5px;
+    height: 5px;
+}
+
+.freature_inner{
+    padding: 5px;
+}
+
+.freature_inner img{
+    height: 30px;
+    width: 30px;
+}
+
+.freature_inner h5{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.freature_inner p{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.about_us h6{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.happy_client img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.happy_client h4{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.app_screens_inner{
+    padding: 10px;
+}
+
+footer{
+    background: #100F1F;
+    padding: 10px;
+}
+
+footer h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+footer p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foo_img{
+    height: 8px;
+    width: 8px;
+}
+
